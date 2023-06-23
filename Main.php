@@ -47,7 +47,7 @@ for($i=0; $i<3-1; $i++) {
 
 for($i=0; $i<3; $i++) {
 	
-	while($breads>1&&$pattice[$i]!=0) {
+	while($breads>1&&$pattice[$i]>0) {
 		$breads-=2;
 		$pattice[$i]--;
 		$maxProfit+=$burger[$i];
